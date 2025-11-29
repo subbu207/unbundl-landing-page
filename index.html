@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Unbundl — Assignment Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  
+<script src="assets/script.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <span class="mark"></span>
+        <span>Unbundl</span>
+      </div>
+
+      <nav>
+        <button class="nav-toggle" id="navToggle">☰</button>
+        <ul id="navList">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="nav-mobile container" id="navMobile"></div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero container">
+      <div>
+        <div class="eyebrow">Design → Code</div>
+        <h1 class="reveal">Fast, pixel-accurate landing pages from Figma.</h1>
+        <p class="reveal">Responsive landing page built using HTML, CSS, and Vanilla JavaScript.</p>
+
+        <div class="cta-row reveal">
+          <a class="btn" href="#portfolio">View Work</a>
+          <a class="btn btn-outline" href="#contact">Get in touch</a>
+        </div>
+      </div>
+
+      <aside class="hero-card reveal">
+        <div class="stats">
+          <div class="stat">
+            <h3>6</h3>
+            <p>Sections</p>
+          </div>
+          <div class="stat">
+            <h3>48h</h3>
+            <p>Timeframe</p>
+          </div>
+          <div class="stat">
+            <h3>Pixel-fit</h3>
+            <p>Accuracy</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features container">
+      <h2 class="reveal">Features</h2>
+
+      <div class="features-grid">
+        <article class="feature reveal">
+          <h4>Responsive Layout</h4>
+          <p>Designed for mobile-first scalability.</p>
+        </article>
+
+        <article class="feature reveal">
+          <h4>Accessible HTML</h4>
+          <p>ARIA roles and proper semantic tags.</p>
+        </article>
+
+        <article class="feature reveal">
+          <h4>No Frameworks</h4>
+          <p>Lightweight and fast Vanilla JS.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+        <section id="portfolio" class="portfolio container">
+            <h2 class="reveal">Case Studies</h2>
+
+            <div class="cards">
+                <article class="card reveal">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&w=800" alt="Project Aurora">
+                <h4>Project Aurora</h4>
+                <p>Figma → Code conversion.</p>
+                </article>
+
+                <article class="card reveal">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&w=800" alt="Design System">
+                <h4>Design System</h4>
+                <p>Reusable UI library.</p>
+                </article>
+
+                <article class="card reveal">
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&w=800" alt="Marketing Site">
+                <h4>Marketing Site</h4>
+                <p>Optimized for performance.</p>
+                </article>
+            </div>
+        </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials container">
+      <h2 class="reveal">Testimonials</h2>
+
+      <blockquote class="testimonial reveal">
+        <p>“Clean and maintainable code.”</p>
+      </blockquote>
+
+      <blockquote class="testimonial reveal">
+        <p>“Matches the Figma design perfectly.”</p>
+      </blockquote>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container contact">
+      <h2 class="reveal">Contact</h2>
+
+      <form class="reveal">
+        <input placeholder="Your name" required />
+        <input placeholder="Email address" required />
+        <button class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <strong>Unbundl</strong>
+      <span id="year"></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
