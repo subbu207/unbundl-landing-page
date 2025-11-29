@@ -10,7 +10,7 @@ A **pixel-perfect, fully responsive landing page** built from a Figma design, us
 
 ## 🌟 Live Demo
 
-[View Live Demo](https://subbu207.github.io/responsive-landing-page/)
+[View Live Demo](https://Subbu207.github.io/responsive-landing-page/)
 
 ---
 
