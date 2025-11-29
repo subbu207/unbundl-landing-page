@@ -3,7 +3,6 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) 
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) 
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 A **pixel-perfect, fully responsive landing page** built from a Figma design, using HTML, CSS, and JavaScript. This project demonstrates modern frontend development and responsive web design principles.
 
